@@ -94,3 +94,5 @@ static int hello_open(struct inode *inodep, struct file *filep){
 
 module_init(hello_init);
 module_exit(hello_exit);
+
+//main.cpp file interacts with this driver to control the LED with a button
