@@ -1,0 +1,5 @@
+Part 1 measurements: the reaction time was approximately 14ms
+Part 2 measurements: the reaction time was approximately 17ms
+Part 3 measurements: the reaction time was almost instantanious. On the image we show a very 
+drawn out scope reading where the reaction time is less than 6.5us.
+If we want something to happen realiably at a specific time instantly the interrupts are the way to go
