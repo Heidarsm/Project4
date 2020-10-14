@@ -14,14 +14,12 @@ int main()
     strcpy(out_buffer, "String to send/n");
     count = strlen(out_buffer);
 
-    int fd = open("/dev/hello2", O_RDWR);
+    int fd = open("/dev/hello1", O_RDWR);
 
     while(true)
     {
-        std::cout<<"YOU ARE HERE"<<std::endl;
         ret = read(fd, in_buffer, BUFFER_LENGTH);
         ret = write(fd, out_buffer, count);
-        sleep(1);
     }
     
     ret = close(fd);
