@@ -1,2 +1,2 @@
-/home/pi/Embeded/Project4/Part2/gpio_test.o
+/home/pi/Embeded/Project4/Part3/gpio_test.o
 

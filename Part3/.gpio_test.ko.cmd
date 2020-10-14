@@ -1,1 +1,1 @@
-cmd_/home/pi/Embeded/Project4/Part2/gpio_test.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o /home/pi/Embeded/Project4/Part2/gpio_test.ko /home/pi/Embeded/Project4/Part2/gpio_test.o /home/pi/Embeded/Project4/Part2/gpio_test.mod.o;  true
+cmd_/home/pi/Embeded/Project4/Part3/gpio_test.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o /home/pi/Embeded/Project4/Part3/gpio_test.ko /home/pi/Embeded/Project4/Part3/gpio_test.o /home/pi/Embeded/Project4/Part3/gpio_test.mod.o;  true
